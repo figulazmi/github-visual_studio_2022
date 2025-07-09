@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
+            string name;
+
+            name = "fajar";
+            
             Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, " + name);
         }
     }
 }
